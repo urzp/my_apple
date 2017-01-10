@@ -3,7 +3,7 @@ nav {
   position: absolute;
   z-index: 2;
   background: rgba(0,0,0,0.8);
-  margin: -10px -10px;
+  margin: 0px 0px;
   width: 100%;
   height: 48px;
   }
@@ -50,13 +50,20 @@ background-image: url(http://www.apple.com/ac/globalnav/2.0/en_US/images/globaln
 
 .gallery-item-content{
   position: absolute;
-  margin: -10px -10px;
+  margin: 0px 0px;
   width: 100%;
-  height: 110%;
+  height: 100%;
+  z-index: 1;
 
   background-repeat: no-repeat;
-  background-image: url(http://images.apple.com/v/home/cz/images/gallery/iphone_alt_small.jpg)
+  background-position: center center;
+  background-image: url(http://images.apple.com/v/home/cz/images/gallery/iphone_alt_small.jpg);
+  background-size: auto 100%;
+
 }
+
+
+
 
 #logo, #logo-second {
   color: white;
@@ -80,4 +87,52 @@ background-image: url(http://www.apple.com/ac/globalnav/2.0/en_US/images/globaln
     letter-spacing: 0em;
     font-style: normal;
     direction: ltr;
+}
+
+.container{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0px 0px;
+  width: 100%;
+  height: 77%;
+  display: block;
+  background-color: rgba(0,0,0,0.96);
+}
+
+.promos{
+  position: absolute;
+  top: 77%;
+  left: 0;
+  width: 100%;
+  height: 23%;
+  background-color: white;
+
+}
+
+#first, #second, #third, #fourthly{
+  width: 25%;
+  height: 100%;
+  float: left;
+
+  background-size: auto 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#first {
+  background-image: url(http://images.apple.com/v/home/cz/images/shared/promos/made_by_apple_xlarge.jpg)
+}
+
+#second {
+  background-image: url(http://images.apple.com/v/home/cz/images/shared/promos/ipad_pro_large.jpg)
+}
+
+#third{
+  background-image: url(http://images.apple.com/v/home/cz/images/shared/promos/airpods_large.jpg)
+}
+
+#fourthly{
+  background-image: url(http://images.apple.com/v/home/cz/images/shared/promos/apple_tv_large.jpg)
 }
