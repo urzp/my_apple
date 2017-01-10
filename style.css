@@ -1,14 +1,17 @@
 nav {
   display: block;
+  position: absolute;
+  z-index: 2;
   background: rgba(0,0,0,0.8);
+  margin: -10px -10px;
   width: 100%;
-  height: 60px;
+  height: 48px;
   }
 
 #main {
   position: relative;
   max-width: 900px;
-  margin:  0 auto;
+  margin:  -20 auto;
   }
 
 nav  li {
@@ -43,4 +46,38 @@ background-image: url(http://www.apple.com/ac/globalnav/2.0/en_US/images/globaln
 #bag {
 background-image: url(http://www.apple.com/ac/globalnav/2.0/en_US/images/globalnav/bag/image_large.svg);
 
+}
+
+.gallery-item-content{
+  position: absolute;
+  margin: -10px -10px;
+  width: 100%;
+  height: 110%;
+
+  background-repeat: no-repeat;
+  background-image: url(http://images.apple.com/v/home/cz/images/gallery/iphone_alt_small.jpg)
+}
+
+#logo, #logo-second {
+  color: white;
+  text-align: center;
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+#logo{
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0em;
+  -webkit-font-smoothing: antialiased;
+}
+
+#logo-second{
+  margin-top: -15px;
+  font-size: 30px;
+    line-height: 1;
+    font-weight: 100;
+    letter-spacing: 0em;
+    font-style: normal;
+    direction: ltr;
 }
