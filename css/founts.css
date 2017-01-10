@@ -1,0 +1,14 @@
+@font-face {
+font-family: 'font356be893126adc07376152f231a5074e';
+        src:    url('http://nomail.com.ua/files/eot/356be893126adc07376152f231a5074e.eot?#iefix') format('embedded-opentype'),
+            url('http://nomail.com.ua/files/woff/356be893126adc07376152f231a5074e.woff') format('woff'),
+            url('http://nomail.com.ua/files/woff2/356be893126adc07376152f231a5074e.woff2') format('woff2');
+}
+
+@font-face { font-family: 'Myriad Set Pro';  src: local('Myriad Set Pro'), url('http://nomail.com.ua/files/woff/356be893126adc07376152f231a5074e.woff') format('woff'); }
+
+
+/*````````````````````````````````` noMail.com.ua - Каталог шрифтов ```````````````````````````````````````*/
+
+#myriadsetprothin { font-family:'Myriad Set Pro'; }
+.font356be893126adc07376152f231a5074e { font-family: 'font356be893126adc07376152f231a5074e'; }

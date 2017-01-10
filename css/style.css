@@ -67,14 +67,14 @@ background-image: url(http://www.apple.com/ac/globalnav/2.0/en_US/images/globaln
 #logo{
   margin-top: 60px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 0em;
   -webkit-font-smoothing: antialiased;
 }
 
 #logo-second{
   margin-top: -15px;
-  font-size: 30px;
+  font-size: 32px;
     line-height: 1;
     font-weight: 100;
     letter-spacing: 0em;
